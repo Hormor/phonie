@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const airtelBool = airtelNumbers.includes(first4);
     const gloBool = gloNumbers.includes(first4);
     const nineMobileBool = nineMobileNumbers.includes(first4);
-    console.log('mtnBool', mtnBool)
+    // console.log('mtnBool', mtnBool)
 
     if (mtnBool) {
       img.src = './images/MTN.png'
