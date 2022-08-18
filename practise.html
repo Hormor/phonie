@@ -40,20 +40,29 @@
             />
           </div>
         </div>
-        <div class="phone-number">
-          <label for="phone_number">
-            Phone Number:
-          </label>
-          <input
-            type="tel"
-            name="phone_number"
-            id="phone_number"
-            placeholder="+234"
-            class="inputs"
-          />
+        <div class="phone">
+          <label for="phone_number"> Phone: </label>
+          <div class="img-container">
+            <select name="country_code" id="country_code">
+              <option value="nigeria">NG +234</option>
+              <option value="ghana">GH +233</option>
+              <option value="south_africa">SA +27</option>
+              <option value="togo">TG +228</option>
+              <option value="kenya">KY +254</option>
+            </select>
+            <div class="phone-number">
+              <input
+                type="tel"
+                name="phone_number"
+                id="phone_number"
+                placeholder="xxxxxxx"
+                class="inputs"
+              />
+            </div>
+            <img id="img" src="./images/MTN.png" alt="" />
+          </div>
         </div>
       </form>
-      <img id="img" src="./images/MTN.png" alt="">
       <div>
         <button class="button" id="button" type="submit">Validate</button>
       </div>
